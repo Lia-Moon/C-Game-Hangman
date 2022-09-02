@@ -67,7 +67,7 @@ void desenhaforca(){
 	// imprime a palavra secreta
 	int achou=0; // booleano
 
-	for(int i=0; i<strlen(palavrasecreta); i++){ // strlen irá contar o número de letras até o /0 que indica o final da palavra
+	for(int i=0; i<strlen(palavrasecreta); i++){ // strlen irá contar o número de letras até o /0 que indica o final da palavra.
 
 		int achou = jachutou(palavrasecreta[i]);
 
